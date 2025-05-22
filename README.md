@@ -45,7 +45,9 @@ class Mango:
 
 ### RESULT: Thus, the program has been successfully executed.
 
-EXP.No: 6.b OPERATOR OVERLOADING
+
+
+EXP.No: 6.2 OPERATOR OVERLOADING
 
 ### AIM: write a python program to overload less than operator
 ###ALGORITHM:
@@ -74,6 +76,9 @@ print(ob1<ob2)
 
 
 ###RESULT: Thus, the program has been successfully executed.
+
+
+
 EX: 6.3 ABSTRACT CLASS METHOD
 
 ### AIM: To Create the abstract method calculate_area which is of the abstract class 'Shape'
@@ -109,6 +114,8 @@ b.calculate_area()
 
 
 ### RESULT: Thus, the program has been successfully executed.
+
+
 
 EXP.No: 6.4     ENCAPSULATION
 ### AIM: To Implement Encapsulation using private members –of a class rectangle with private variables length,width.
