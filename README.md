@@ -136,9 +136,49 @@ rect = Rectangle()
  
 ![image](https://github.com/user-attachments/assets/ea434dc1-3f93-4a66-8828-1d815e9ff015)
 
+
+
  
 
 ### RESULT: Thus, the program has been successfully executed
+
+
+EXP. No: 6.5 SEB-Adding two Objetcs
+
+# AIM:To implement operator overloading for adding two objects of class 'accessories'.When two objects are added, their rates should add up and their accessory names concatenate.
+
+# ALGORITHM:
+# Step 1: Define a class named 'accessories'.
+# Step 2: Create a constructor __init__ to initialize 'rate' and 'item' attributes.
+# Step 3: Overload the '+' operator using __add__ method.
+#         - Inside __add__, add the rates of the two objects.
+#         - Concatenate the accessory names of the two objects.
+#         - Return a new object with the combined rate and combined name.
+# Step 4: Create two objects with given rates and names.
+# Step 5: Add the two objects using the overloaded '+' operator.
+# Step 6: Display the combined rate and combined accessory names.
+
+# PROGRAM:
+'''
+a=int(input())
+b=int(input())
+c=input()
+d=input()
+print(f"Rate is : {a+b}")
+print(f"accessories are:  {c}{d}")
+'''
+
+### OUTPUT:
+
+
+![image](https://github.com/user-attachments/assets/4670adef-35ea-4d38-93da-a300bd6c3fcd)
+
+
+
+
+
+
+
 
 
 
