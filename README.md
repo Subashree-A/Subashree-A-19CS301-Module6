@@ -145,33 +145,49 @@ rect = Rectangle()
 
 EXP. No: 6.5 SEB-Adding two Objetcs
 
-# AIM:To implement operator overloading for adding two objects of class 'accessories'.When two objects are added, their rates should add up and their accessory names concatenate.
+### Aim:
+To write a Python program to demonstrate simple operator overloading for adding two objects — integers and strings.
 
-# ALGORITHM:
-# Step 1: Define a class named 'accessories'.
-# Step 2: Create a constructor __init__ to initialize 'rate' and 'item' attributes.
-# Step 3: Overload the '+' operator using __add__ method.
-#         - Inside __add__, add the rates of the two objects.
-#         - Concatenate the accessory names of the two objects.
-#         - Return a new object with the combined rate and combined name.
-# Step 4: Create two objects with given rates and names.
-# Step 5: Add the two objects using the overloaded '+' operator.
-# Step 6: Display the combined rate and combined accessory names.
+### Algorithm:
 
-# PROGRAM:
-'''
-a=int(input())
-b=int(input())
-c=input()
-d=input()
-print(f"Rate is : {a+b}")
-print(f"accessories are:  {c}{d}")
-'''
+**STEP 1:** Start.  
+**STEP 2:** Define a class `add` with a constructor accepting two integers and two strings.  
+**STEP 3:** Store them as instance variables.  
+**STEP 4:** Define a method `disp()` to:
+- Print the sum of the two integers.
+- Print the concatenation of the two strings.  
+**STEP 5:** Accept input values from the user.  
+**STEP 6:** Create an object of the class and call `disp()`.  
+**STEP 7:** Stop.
 
-### OUTPUT:
+### Program:
+```python
+class add:
+    def __init__(self, a, b, c, d):
+        self.a = a
+        self.b = b
+        self.c = c
+        self.d = d
 
+    def disp(self):
+        print("adding integers :", self.a + self.b)
+        print("adding strings :", self.c + self.d)
 
+a = int(input())
+b = int(input())
+c = input()
+d = input()
+e = add(a, b, c, d)
+e.disp()
+```
+### Output:
 ![image](https://github.com/user-attachments/assets/4670adef-35ea-4d38-93da-a300bd6c3fcd)
+
+### Result:
+Thus the program was executed Successfully.
+
+
+
 
 
 
